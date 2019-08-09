@@ -7,7 +7,7 @@ Python program containing classes to solve the problem of shortest common supers
 #### from shortest_common_superstring import *
 
 scs=ShortestCommonSuperstring(list) #e.g. list=['ATGC', 'TGCC', 'GCCA']
-OR
+###### OR
 obj1=ShortestCommonSuperstring()
 obj1.load_seq(sequence, k) #k is an integer for length of k-mers
 Finding SCS : 
@@ -35,7 +35,7 @@ This class provides the functionality to make a directed graph by calculating ed
 
 #### 2.1 Initialising class and loading a kmers (user has to provide list of k-mers) : 
 scs=ShortestCommonSuperstring(list) #e.g. list=['ATGC', 'TGCC', 'GCCA']
-scs is a list object that contains the shortest common superstring. It could have multiple strings if program is not able to resolve.
+scs.kmers is a list object that contains the shortest common superstring. It could have multiple strings if program is not able to resolve.
 
 #### 2.2 Initialising class if user does not have a list of kmers (user has to provide a sequence) : 
 obj1=ShortestCommonSuperstring()
