@@ -9,8 +9,9 @@ Python program containing classes to solve the problem of shortest common supers
 scs=ShortestCommonSuperstring(list) #e.g. list=['ATGC', 'TGCC', 'GCCA']
 ###### OR
 obj1=ShortestCommonSuperstring()
+
 obj1.load_seq(sequence, k) #k is an integer for length of k-mers
-Finding SCS : 
+
 scs=obj1.scs()
 
 
